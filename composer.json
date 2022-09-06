@@ -1,0 +1,22 @@
+{
+    "name": "gping/php-orm",
+    "description": "try make php orm library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Orm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gping123",
+            "email": "1530188802@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-pdo": "*"
+    }
+}
